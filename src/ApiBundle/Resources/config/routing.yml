@@ -1,0 +1,7 @@
+api_homepage:
+    path:     /process/{query}
+    defaults: { _controller: ApiBundle:Default:get }
+
+pretty_get:
+    path:     /process/pretty/{query}
+    defaults: { _controller: ApiBundle:Default:prettyGet }
